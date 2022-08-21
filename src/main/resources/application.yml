@@ -5,6 +5,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      default-zone: https://${eureka.instance.hostname}:8188/eureka
+      default-zone: https://144.24.87.198:8188/eureka
   server:
-    enable-self-preservation: false
+    enable-self-preservation: f
+    alse
