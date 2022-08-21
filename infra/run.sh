@@ -7,6 +7,8 @@ sudo docker stop $CONTAINER_NAME
 sudo docker rm $CONTAINER_NAME
 sudo docker rmi $IMAGE_NAME
 
+echo "path  :: `(pwd)`"
+
 sudo docker build \
 -t $IMAGE_NAME \
 .
