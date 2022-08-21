@@ -1,6 +1,6 @@
 CONTAINER_NAME=eureka_container
 IMAGE_NAME=eureka_image
-DEPLOY_PATH=/home/ubuntu/gunny
+
 PORT=8188
 
 sudo docker stop $CONTAINER_NAME
@@ -9,7 +9,7 @@ sudo docker rmi $IMAGE_NAME
 
 sudo docker build \
 -t $IMAGE_NAME \
-$DEPLOY_PATH
+.
 
 sudo docker run \
 -p $PORT:8080 \
