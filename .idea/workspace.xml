@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1ce4f8a-f0cc-4cd9-875b-ebb424275204" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/kotlin/git/io/kotlinclient/TestController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application-app1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application-app2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665847224908</updated>
       <workItem from="1665847226183" duration="884000" />
-      <workItem from="1665911940543" duration="1836000" />
+      <workItem from="1665911940543" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665912446719</created>
