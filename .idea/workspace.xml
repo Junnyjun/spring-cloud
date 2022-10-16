@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1ce4f8a-f0cc-4cd9-875b-ebb424275204" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/kotlin/kotlin-cloud/src/main/kotlin/git/junny/kotlincloud/chap1/bean/HelloWorldBean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin/kotlin-cloud/src/main/kotlin/git/junny/kotlincloud/chap1/controller/HelloWorlController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin/kotlin-cloud/src/main/kotlin/git/junny/kotlincloud/chap1/user/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin/kotlin-cloud/src/main/kotlin/git/junny/kotlincloud/chap1/user/UserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/kotlin/git/io/kotlinclient/TestController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application-app1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application-app2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-client/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
