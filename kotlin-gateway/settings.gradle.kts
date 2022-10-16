@@ -1,1 +1,1 @@
-rootProject.name = "spring-zuul"
+rootProject.name = "spring-gateway"
