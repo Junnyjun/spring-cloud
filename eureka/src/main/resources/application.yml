@@ -1,11 +1,22 @@
-server:
-  port: 8761
-
 spring:
   application:
     name: eureka-server
+  profiles:
+    active: dev
+server:
+  port: 8761
+
+
 
 eureka:
+  server:
+    enable-self-preservation: true
+  instance:
+    hostname: api-discovery.com
+    secure-port: ${server.port}
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    disable-delta: true
