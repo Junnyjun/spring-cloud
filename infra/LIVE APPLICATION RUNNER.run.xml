@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="APPLICATION RUNNER" type="CompoundRunConfigurationType">
+  <configuration default="false" name="LIVE APPLICATION RUNNER" type="CompoundRunConfigurationType">
     <toRun name="EUREKA-PEER1" type="SpringBootApplicationConfigurationType" />
     <toRun name="EUREKA-PEER2" type="SpringBootApplicationConfigurationType" />
     <method v="2" />
