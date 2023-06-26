@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="DEV APPLICATION RUNNER" type="CompoundRunConfigurationType">
+    <toRun name="USER-SERVICEd" type="SpringBootApplicationConfigurationType" />
     <toRun name="EUREKA-DEV" type="SpringBootApplicationConfigurationType" />
     <method v="2" />
   </configuration>
