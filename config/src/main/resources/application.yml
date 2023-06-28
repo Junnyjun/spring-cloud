@@ -4,6 +4,14 @@ server:
 spring:
   cloud:
     config:
+      discovery:
+        service-id: config
+        uri: http://localhost:8761
+      server:
+        git:
+          basedir: https://github.com/Junnyjun/spring-cloud
+          default-label: master
+
 
   application:
     name: config
@@ -14,3 +22,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
