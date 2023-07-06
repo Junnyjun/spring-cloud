@@ -1,13 +1,19 @@
 server:
-  port: 8762
+  port: 8761
 
 eureka:
   server:
     enable-self-preservation: true
   instance:
-    hostname: peer2.api-discovery.com
+    hostname: peer2
     secure-port: ${server.port}
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://peer1.api-discovery.com:8761/eureka
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

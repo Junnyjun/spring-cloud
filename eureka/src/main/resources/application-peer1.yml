@@ -5,9 +5,15 @@ eureka:
   server:
     enable-self-preservation: true
   instance:
-    hostname: peer1.api-discovery.com
+    hostname: peer1
     secure-port: ${server.port}
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://peer2.api-discovery.com:8762/eureka
+      defaultZone: http://${eureka.instance.hostname}:8762/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
