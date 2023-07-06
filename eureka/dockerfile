@@ -1,4 +1,4 @@
-FROM meddream/jdk17
+FROM arm64v8/openjdk:17-ea-16-jdk
 
 ENV TZ=Asia/Seoul
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
