@@ -1,0 +1,10 @@
+FROM arm64v8/openjdk:17-ea-16-jdk
+
+ENV TZ=Asia/Seoul
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+ENV PROFILE=${ARG_PROFILE}
+
+COPY ./build/libs/*SNAPSHOT.jar deploy.jar
+
+ENTRYPOINT exec java -jar -Dspring.profiles.active=${PROFILE} deploy.jar
